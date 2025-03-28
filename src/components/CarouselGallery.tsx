@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { NFTItem } from './NFTCard';
+import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import {
   Carousel,
@@ -52,33 +53,23 @@ const carouselNFTs: NFTItem[] = [
 const CarouselGallery = () => {
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8">
-      <div className="container max-w-6xl mx-auto">
+      <div className="container max-w-5xl mx-auto">
         <h2 className="text-5xl font-caveat font-bold text-center mb-12 text-ghibli-brown">Enchanted Collection</h2>
         
-        <Carousel 
-          className="relative w-full" 
-          opts={{
-            align: "center",
-            loop: true,
-          }}
-        >
-          <CarouselContent className="-ml-2 md:-ml-4">
+        <Carousel className="relative w-full">
+          <CarouselContent>
             {carouselNFTs.map((nft) => (
-              <CarouselItem 
-                key={nft.id} 
-                className="pl-2 md:pl-4 flex justify-center basis-full md:basis-4/5 lg:basis-3/4"
-              >
+              <CarouselItem key={nft.id} className="flex justify-center">
                 <div className="w-full h-full flex flex-col items-center">
-                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] w-full mb-6 hand-drawn-border group">
+                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/9] w-full mb-4 hand-drawn-border">
                     <img 
                       src={nft.image} 
                       alt={nft.title}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   <div className="text-center mt-4">
-                    <h3 className="font-caveat text-4xl font-semibold text-gray-800">{nft.title}</h3>
+                    <h3 className="font-caveat text-3xl font-semibold text-gray-800">{nft.title}</h3>
                     <p className="text-ghibli-brown font-medium text-xl mt-2">{nft.price}</p>
                   </div>
                 </div>
@@ -86,13 +77,8 @@ const CarouselGallery = () => {
             ))}
           </CarouselContent>
           
-          <div className="absolute -left-4 sm:-left-8 top-0 bottom-0 flex items-center justify-center w-24 bg-gradient-to-r from-ghibli-cream to-transparent z-10 pointer-events-none">
-            <CarouselPrevious className="relative h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight pointer-events-auto" />
-          </div>
-          
-          <div className="absolute -right-4 sm:-right-8 top-0 bottom-0 flex items-center justify-center w-24 bg-gradient-to-l from-ghibli-cream to-transparent z-10 pointer-events-none">
-            <CarouselNext className="relative h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight pointer-events-auto" />
-          </div>
+          <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white transition-colors border-ghibli-brown h-10 w-10" />
+          <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white transition-colors border-ghibli-brown h-10 w-10" />
         </Carousel>
       </div>
     </div>
