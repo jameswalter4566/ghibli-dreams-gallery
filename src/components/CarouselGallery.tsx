@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { NFTItem } from './NFTCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import {
@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/carousel";
+import CarouselModal from './CarouselModal';
 
 // Updated NFT data with the image files from the public folder
 const carouselNFTs: NFTItem[] = [
@@ -78,6 +79,18 @@ const carouselNFTs: NFTItem[] = [
 ];
 
 const CarouselGallery = () => {
+  const [selectedNFT, setSelectedNFT] = useState<NFTItem | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = (nft: NFTItem) => {
+    setSelectedNFT(nft);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="container max-w-6xl mx-auto">
@@ -97,13 +110,18 @@ const CarouselGallery = () => {
                 className="pl-2 md:pl-4 flex justify-center basis-full md:basis-4/5 lg:basis-3/4"
               >
                 <div className="w-full h-full flex flex-col items-center">
-                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] w-full mb-6 hand-drawn-border group">
+                  <div 
+                    className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] w-full mb-6 hand-drawn-border group cursor-pointer"
+                    onClick={() => handleOpenModal(nft)}
+                  >
                     <img 
                       src={nft.image} 
                       alt={nft.title}
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                      <span className="text-white p-4 font-medium">Click to enlarge</span>
+                    </div>
                   </div>
                   <div className="text-center mt-4">
                     <h3 className="font-caveat text-4xl font-semibold text-gray-800">{nft.title}</h3>
@@ -123,6 +141,12 @@ const CarouselGallery = () => {
           </div>
         </Carousel>
       </div>
+      
+      <CarouselModal 
+        nft={selectedNFT}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </div>
   );
 };
