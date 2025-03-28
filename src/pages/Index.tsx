@@ -6,9 +6,9 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow relative z-10">
+      <main className="flex-grow">
         <CarouselGallery />
       </main>
       <Footer />

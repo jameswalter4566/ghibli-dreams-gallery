@@ -13,7 +13,6 @@ interface FloatingCloudProps {
   delay?: number;
   direction?: 'left' | 'right';
   className?: string;
-  color?: string;
 }
 
 const FloatingCloud: React.FC<FloatingCloudProps> = ({
@@ -21,16 +20,15 @@ const FloatingCloud: React.FC<FloatingCloudProps> = ({
   position,
   delay = 0,
   direction = 'left',
-  className,
-  color = "#ffffff"
+  className
 }) => {
   const sizeClasses = {
-    sm: 'w-20 h-14',
-    md: 'w-32 h-20',
-    lg: 'w-48 h-32',
+    sm: 'w-16 h-12',
+    md: 'w-24 h-16',
+    lg: 'w-32 h-20',
   };
 
-  const opacityClass = size === 'sm' ? 'opacity-60' : size === 'md' ? 'opacity-70' : 'opacity-80';
+  const opacityClass = size === 'sm' ? 'opacity-40' : size === 'md' ? 'opacity-60' : 'opacity-80';
   const animationClass = direction === 'left' ? 'animate-drift-left' : 'animate-drift-right';
   
   const style = {
@@ -56,10 +54,10 @@ const FloatingCloud: React.FC<FloatingCloudProps> = ({
         className="w-full h-full"
       >
         <path 
-          d="M82,28 Q90,18 94,28 T98,36 Q100,32 93,26 Q92,18 87,17 Q86,13 82,10 Q78,9 76,12 Q70,7 63,13 Q61,8 56,11 Q51,6 46,13 Q44,3 33,10 Q27,5 22,12 Q19,6 12,13 Q8,8 4,14 Q0,20 2,27 Q-5,36 8,42 Q3,50 9,54 Q15,59 25,54 Q35,59 45,50 Q52,58 60,50 Q68,57 77,45 Q86,50 93,36"
-          fill={color}
+          d="M91.9 38.3c4.5 0 8.1 3.6 8.1 8.1 0 4.5-3.6 8.1-8.1 8.1H24.6c-3.6 0-6.5-2.9-6.5-6.5 0-3.6 2.9-6.5 6.5-6.5h1.1c0.7-11.5 10.3-20.6 22-20.6 3.4 0 6.6 0.8 9.4 2.1C60.4 13.3 69.8 6.5 80.9 6.5c10.6 0 19.1 8.6 19.1 19.1 0 4.5-1.5 8.6-4.1 11.8 -1.3 0.5-2.6 0.8-4 0.8" 
+          fill="white" 
           stroke="#A8D8EA" 
-          strokeWidth="0.5" 
+          strokeWidth="2" 
           strokeLinecap="round" 
           strokeLinejoin="round"
         />

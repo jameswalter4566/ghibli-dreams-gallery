@@ -4,24 +4,17 @@ import FloatingCloud from './FloatingCloud';
 
 const Header = () => {
   return (
-    <header className="relative py-12 overflow-hidden bg-transparent">
-      {/* SVG Filters for painted effect */}
-      <svg width="0" height="0" className="absolute">
-        <filter id="painted-filter">
-          <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" seed="1" />
-          <feDisplacementMap in="SourceGraphic" scale="10" />
-          <feGaussianBlur stdDeviation="0.5" />
-        </filter>
-      </svg>
-      
-      {/* Enhanced Floating Clouds with painted effect */}
+    <header className="relative ghibli-gradient py-12 overflow-hidden">
+      {/* Floating Clouds */}
       <div className="cloud-container">
-        <FloatingCloud size="lg" position={{ top: '15%', left: '5%' }} delay={0} direction="left" className="painted-cloud" color="#fffaf0" />
-        <FloatingCloud size="sm" position={{ top: '30%', left: '25%' }} delay={5} direction="left" className="painted-cloud" color="#fff6e6" />
-        <FloatingCloud size="md" position={{ top: '10%', left: '40%' }} delay={11} direction="right" className="painted-cloud" color="#fff9eb" />
-        <FloatingCloud size="lg" position={{ top: '5%', left: '60%' }} delay={7} direction="left" className="painted-cloud" color="#fffaf0" />
-        <FloatingCloud size="sm" position={{ top: '25%', left: '85%' }} delay={3} direction="right" className="painted-cloud" color="#fff6e6" />
-        <FloatingCloud size="md" position={{ top: '20%', right: '15%' }} delay={9} direction="right" className="painted-cloud" color="#fff9eb" />
+        <FloatingCloud size="md" position={{ top: '30%', left: '5%' }} delay={0} direction="left" />
+        <FloatingCloud size="sm" position={{ top: '40%', left: '15%' }} delay={3} direction="left" />
+        <FloatingCloud size="lg" position={{ top: '20%', left: '25%' }} delay={7} direction="left" />
+        <FloatingCloud size="sm" position={{ top: '50%', left: '35%' }} delay={12} direction="left" />
+        <FloatingCloud size="md" position={{ top: '15%', left: '70%' }} delay={5} direction="left" />
+        <FloatingCloud size="lg" position={{ top: '45%', right: '15%' }} delay={9} direction="right" />
+        <FloatingCloud size="sm" position={{ top: '60%', right: '25%' }} delay={2} direction="right" />
+        <FloatingCloud size="md" position={{ top: '25%', right: '35%' }} delay={11} direction="right" />
       </div>
       
       {/* Title */}
