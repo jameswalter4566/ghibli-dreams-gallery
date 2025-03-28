@@ -1,13 +1,25 @@
 
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
-import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
+import { X } from 'lucide-react';
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
-      <div className="flex justify-end items-center py-4 px-4">
+      <div className="flex justify-between items-center py-4 px-4">
+        <div>
+          <a 
+            href="https://twitter.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-flex items-center gap-2 bg-black rounded-full p-2 text-white hover:bg-gray-800 transition-colors"
+            aria-label="Twitter/X"
+          >
+            <X size={24} />
+          </a>
+        </div>
+        
         <div className="flex flex-col items-center">
           <Button 
             className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
@@ -30,7 +42,6 @@ const Index = () => {
       <main className="flex-grow">
         <CarouselGallery />
       </main>
-      <Footer />
     </div>
   );
 };
