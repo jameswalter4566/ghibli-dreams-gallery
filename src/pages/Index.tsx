@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Header from '@/components/Header';
-import NFTGallery from '@/components/NFTGallery';
+import CarouselGallery from '@/components/CarouselGallery';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -9,7 +9,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow">
-        <NFTGallery />
+        <CarouselGallery />
       </main>
       <Footer />
     </div>
