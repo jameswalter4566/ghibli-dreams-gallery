@@ -35,12 +35,6 @@ const CarouselModal: React.FC<CarouselModalProps> = ({ nft, isOpen, onClose }) =
             className="w-full h-auto object-contain"
           />
         </div>
-        
-        <div className="p-6 bg-white">
-          <h2 className="font-caveat text-4xl font-bold text-gray-800 mb-3">{nft.title}</h2>
-          <p className="text-gray-600 mb-4">{nft.description}</p>
-          <p className="text-xl font-semibold text-ghibli-brown">{nft.price}</p>
-        </div>
       </div>
     </div>
   );

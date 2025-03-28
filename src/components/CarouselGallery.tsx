@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import { NFTItem } from './NFTCard';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import {
   Carousel,
   CarouselContent,
@@ -17,64 +16,64 @@ const carouselNFTs: NFTItem[] = [
     id: 1,
     title: "Forest Spirit",
     image: "/image145.png",
-    description: "A mystical forest spirit inspired by the ancient guardians of nature. This ethereal being watches over the woods, bringing life and magic to all it touches.",
-    price: "0.85 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 2,
     title: "Sky Castle",
     image: "/image16.png",
-    description: "A floating castle among the clouds, reminiscent of the moving castles from magical tales. This enchanted structure drifts through the sky, holding countless mysteries within its walls.",
-    price: "1.2 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 3,
     title: "River Dragon",
     image: "/image1455.png",
-    description: "A gentle river dragon that flows with the current, blessing the waters with its presence. This benevolent creature embodies the spirit of transformation and adaptation.",
-    price: "0.95 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 4,
     title: "Twilight Deer",
     image: "/image1433.png",
-    description: "A magical deer that appears at the boundary between day and night. Its antlers glow with ethereal light, guiding lost travelers through the twilight forest.",
-    price: "0.75 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 5,
     title: "Mountain Keeper",
     image: "/image1.png",
-    description: "The ancient guardian of the misty mountains, watching over the peaks and valleys for centuries. Its wisdom is as vast as the mountains it protects.",
-    price: "1.5 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 6,
     title: "Ocean Voyager",
     image: "/image12.png",
-    description: "A mystical sea creature that navigates the deepest oceans, connecting the world above with the mysteries below. It carries ancient knowledge of the underwater realms.",
-    price: "1.35 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 7,
     title: "Crystal Guardian",
     image: "/image13.png",
-    description: "A being formed of pure crystal, radiating with inner light. It guards the sacred crystal caves and shares wisdom with those pure of heart.",
-    price: "1.8 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 8,
     title: "Flower Sprite",
     image: "/image14.png",
-    description: "A delicate spirit that dances among the flowers, bringing color and life to meadows. Its presence ensures the eternal cycle of growth and renewal.",
-    price: "0.65 ETH"
+    description: "",
+    price: ""
   },
   {
     id: 9,
     title: "Desert Nomad",
     image: "/image15.png",
-    description: "A wandering spirit of the vast deserts, guiding lost travelers to hidden oases. It understands the language of the sand and stars, revealing paths unseen by others.",
-    price: "1.1 ETH"
+    description: "",
+    price: ""
   }
 ];
 
@@ -94,8 +93,6 @@ const CarouselGallery = () => {
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="container max-w-6xl mx-auto">
-        <h2 className="text-5xl font-caveat font-bold text-center mb-12 text-ghibli-brown">Enchanted Collection</h2>
-        
         <Carousel 
           className="relative w-full" 
           opts={{
@@ -119,13 +116,6 @@ const CarouselGallery = () => {
                       alt={nft.title}
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                      <span className="text-white p-4 font-medium">Click to enlarge</span>
-                    </div>
-                  </div>
-                  <div className="text-center mt-4">
-                    <h3 className="font-caveat text-4xl font-semibold text-gray-800">{nft.title}</h3>
-                    <p className="text-ghibli-brown font-medium text-xl mt-2">{nft.price}</p>
                   </div>
                 </div>
               </CarouselItem>
