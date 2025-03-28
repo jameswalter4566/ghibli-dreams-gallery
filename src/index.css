@@ -100,9 +100,10 @@
 
   body {
     @apply text-foreground font-nunito;
-    background: linear-gradient(180deg, #ffffff 0%, #a8e6ff 35%, #5bcdfd 100%);
+    background-image: url('/ghiblibackround.jpg');
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100%;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -188,4 +189,3 @@
 .font-nunito {
   font-family: 'Nunito', sans-serif;
 }
-
