@@ -10,68 +10,68 @@ import {
   CarouselNext,
 } from "@/components/ui/carousel";
 
-// Updated NFT data with placeholder images since the original images aren't loading
+// Updated NFT data with the image files from the public folder
 const carouselNFTs: NFTItem[] = [
   {
     id: 1,
     title: "Forest Spirit",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "/image145.png",
     description: "A mystical forest spirit inspired by the ancient guardians of nature. This ethereal being watches over the woods, bringing life and magic to all it touches.",
     price: "0.85 ETH"
   },
   {
     id: 2,
     title: "Sky Castle",
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
+    image: "/image16.png",
     description: "A floating castle among the clouds, reminiscent of the moving castles from magical tales. This enchanted structure drifts through the sky, holding countless mysteries within its walls.",
     price: "1.2 ETH"
   },
   {
     id: 3,
     title: "River Dragon",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+    image: "/image1455.png",
     description: "A gentle river dragon that flows with the current, blessing the waters with its presence. This benevolent creature embodies the spirit of transformation and adaptation.",
     price: "0.95 ETH"
   },
   {
     id: 4,
     title: "Twilight Deer",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    image: "/image1433.png",
     description: "A magical deer that appears at the boundary between day and night. Its antlers glow with ethereal light, guiding lost travelers through the twilight forest.",
     price: "0.75 ETH"
   },
   {
     id: 5,
     title: "Mountain Keeper",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
+    image: "/image1.png",
     description: "The ancient guardian of the misty mountains, watching over the peaks and valleys for centuries. Its wisdom is as vast as the mountains it protects.",
     price: "1.5 ETH"
   },
   {
     id: 6,
     title: "Ocean Voyager",
-    image: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9",
+    image: "/image12.png",
     description: "A mystical sea creature that navigates the deepest oceans, connecting the world above with the mysteries below. It carries ancient knowledge of the underwater realms.",
     price: "1.35 ETH"
   },
   {
     id: 7,
     title: "Crystal Guardian",
-    image: "https://images.unsplash.com/photo-1535666669445-e8c15cd2e7d9",
+    image: "/image13.png",
     description: "A being formed of pure crystal, radiating with inner light. It guards the sacred crystal caves and shares wisdom with those pure of heart.",
     price: "1.8 ETH"
   },
   {
     id: 8,
     title: "Flower Sprite",
-    image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946",
+    image: "/image14.png",
     description: "A delicate spirit that dances among the flowers, bringing color and life to meadows. Its presence ensures the eternal cycle of growth and renewal.",
     price: "0.65 ETH"
   },
   {
     id: 9,
     title: "Desert Nomad",
-    image: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0",
+    image: "/image15.png",
     description: "A wandering spirit of the vast deserts, guiding lost travelers to hidden oases. It understands the language of the sand and stars, revealing paths unseen by others.",
     price: "1.1 ETH"
   }
