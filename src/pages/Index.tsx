@@ -27,7 +27,7 @@ const Index = () => {
               aria-label="Mint Now"
             >
               <img 
-                src="/mintnow.jpg" 
+                src="mintnow.jpg" 
                 alt="Mint Now" 
                 className="w-32 h-auto object-contain"
               />
