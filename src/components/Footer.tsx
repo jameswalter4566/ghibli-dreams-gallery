@@ -4,12 +4,7 @@ import { Github, Twitter, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-ghibli-skyLight py-8 relative">
-      {/* Grass illustration at the top of the footer */}
-      <div className="grass-container absolute top-0 left-0 right-0 transform -translate-y-full">
-        <div className="grass"></div>
-      </div>
-      
+    <footer className="bg-transparent py-8 relative z-10">
       <div className="container">
         <div className="flex flex-col items-center">
           <h2 className="font-caveat text-3xl font-bold text-ghibli-brown mb-6">Ghibli Gallery</h2>
