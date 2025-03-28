@@ -8,19 +8,17 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
       <div className="flex justify-end items-center py-4 px-6">
         <div className="flex items-center space-x-6">
-          <div className="flex flex-col items-center">
-            <a 
-              href="https://x.com/ghiblio_nft" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
-              aria-label="Twitter/X"
-            >
-              <div className="flex items-center justify-center w-full h-full bg-black">
-                <X size={32} className="text-white" />
-              </div>
-            </a>
-          </div>
+          <a 
+            href="https://x.com/ghiblio_nft" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
+            aria-label="Twitter/X"
+          >
+            <div className="flex items-center justify-center w-full h-full bg-black">
+              <X size={32} className="text-white" />
+            </div>
+          </a>
           
           <div className="flex flex-col items-center">
             <a 
@@ -36,7 +34,6 @@ const Index = () => {
                 className="w-full h-full object-cover"
               />
             </a>
-            <p className="text-white font-caveat font-bold mt-2 text-center text-xl">Mint now</p>
           </div>
         </div>
       </div>
