@@ -11,15 +11,20 @@ const Index = () => {
         <div className="flex-grow"></div>
         
         <div className="flex items-center space-x-4">
-          <a 
-            href="https://twitter.com" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="inline-flex items-center gap-2 bg-black rounded-full p-2 text-white hover:bg-gray-800 transition-colors"
-            aria-label="Twitter/X"
-          >
-            <X size={24} />
-          </a>
+          <div className="flex flex-col items-center">
+            <a 
+              href="https://twitter.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              aria-label="Twitter/X"
+            >
+              <div className="flex items-center justify-center w-32 h-12 bg-black">
+                <X size={24} className="text-white" />
+              </div>
+            </a>
+            <p className="text-white font-medium mt-2 text-center">Twitter</p>
+          </div>
           
           <div className="flex flex-col items-center">
             <Button 
