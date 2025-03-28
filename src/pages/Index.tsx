@@ -8,7 +8,9 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
       <div className="flex justify-between items-center py-4 px-4">
-        <div>
+        <div className="flex-grow"></div>
+        
+        <div className="flex items-center space-x-4">
           <a 
             href="https://twitter.com" 
             target="_blank" 
@@ -18,20 +20,20 @@ const Index = () => {
           >
             <X size={24} />
           </a>
-        </div>
-        
-        <div className="flex flex-col items-center">
-          <Button 
-            className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
-            aria-label="Mint Now"
-          >
-            <img 
-              src="/mintnow.jpg" 
-              alt="Mint Now" 
-              className="w-32 h-auto object-contain"
-            />
-          </Button>
-          <p className="text-white font-medium mt-2 text-center">Mint now</p>
+          
+          <div className="flex flex-col items-center">
+            <Button 
+              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              aria-label="Mint Now"
+            >
+              <img 
+                src="/mintnow.jpg" 
+                alt="Mint Now" 
+                className="w-32 h-auto object-contain"
+              />
+            </Button>
+            <p className="text-white font-medium mt-2 text-center">Mint now</p>
+          </div>
         </div>
       </div>
       
