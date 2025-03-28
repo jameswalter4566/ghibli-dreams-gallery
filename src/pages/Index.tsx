@@ -7,7 +7,7 @@ import { X } from 'lucide-react';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
-      <div className="flex justify-center items-center py-4 px-4">
+      <div className="flex justify-end items-center py-4 px-6">
         <div className="flex items-center space-x-6">
           <a 
             href="https://twitter.com" 
@@ -28,7 +28,7 @@ const Index = () => {
             >
               <div className="flex items-center justify-center w-full h-full">
                 <img 
-                  src="themintbutton.jpg" 
+                  src="photo_2025-03-28_16-33-40.jpg" 
                   alt="Mint Now" 
                   className="w-full h-full object-cover"
                 />
