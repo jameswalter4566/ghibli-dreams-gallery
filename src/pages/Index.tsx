@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/button';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
-      <div className="flex justify-between items-center py-4">
-        <div className="px-4">
+      <div className="flex justify-end items-center py-4 px-4">
+        <div className="flex flex-col items-center">
           <Button 
             className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
             aria-label="Mint Now"
@@ -16,9 +16,10 @@ const Index = () => {
             <img 
               src="/mintnow.jpg" 
               alt="Mint Now" 
-              className="w-32 h-auto object-cover"
+              className="w-32 h-auto object-contain"
             />
           </Button>
+          <p className="text-white font-medium mt-2 text-center">Mint now</p>
         </div>
       </div>
       
