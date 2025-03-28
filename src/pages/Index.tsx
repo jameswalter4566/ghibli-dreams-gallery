@@ -1,7 +1,6 @@
 
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
-import { Button } from '@/components/ui/button';
 import { X } from 'lucide-react';
 
 const Index = () => {
@@ -21,21 +20,17 @@ const Index = () => {
             </div>
           </a>
           
-          <div className="flex flex-col items-center">
-            <Button 
-              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
-              aria-label="Mint Now"
-            >
-              <div className="flex items-center justify-center w-full h-full">
-                <img 
-                  src="photo_2025-03-28_16-33-40.jpg" 
-                  alt="Mint Now" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </Button>
-            <p className="text-white font-caveat font-bold mt-2 text-center text-xl">Mint now</p>
-          </div>
+          <a 
+            href="#" 
+            className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
+            aria-label="Mint Now"
+          >
+            <img 
+              src="photo_2025-03-28_16-33-40.jpg" 
+              alt="Mint Now" 
+              className="w-full h-full object-cover"
+            />
+          </a>
         </div>
       </div>
       
