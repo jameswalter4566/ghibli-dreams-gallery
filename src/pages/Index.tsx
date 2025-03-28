@@ -33,9 +33,9 @@ const Index = () => {
             >
               <div className="flex items-center justify-center w-full h-full">
                 <img 
-                  src="mintnow.jpg" 
+                  src="themintbutton.jpg" 
                   alt="Mint Now" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </Button>
