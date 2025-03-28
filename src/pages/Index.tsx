@@ -22,7 +22,7 @@ const Index = () => {
         </div>
       </div>
       
-      <h1 className="text-5xl md:text-6xl lg:text-7xl font-caveat text-ghibli-brown text-center mb-8 px-4">
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-caveat text-white text-center mb-8 px-4">
         2222 spirits on chain — ghibli
       </h1>
       

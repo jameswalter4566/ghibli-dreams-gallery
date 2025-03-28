@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { NFTItem } from './NFTCard';
 import {
@@ -10,7 +9,6 @@ import {
 } from "@/components/ui/carousel";
 import CarouselModal from './CarouselModal';
 
-// Updated NFT data with the image files from the public folder
 const carouselNFTs: NFTItem[] = [
   {
     id: 1,
@@ -122,13 +120,8 @@ const CarouselGallery = () => {
             ))}
           </CarouselContent>
           
-          <div className="absolute -left-4 sm:-left-8 top-0 bottom-0 flex items-center justify-center w-24 bg-gradient-to-r from-ghibli-cream to-transparent z-10 pointer-events-none">
-            <CarouselPrevious className="relative h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight pointer-events-auto" />
-          </div>
-          
-          <div className="absolute -right-4 sm:-right-8 top-0 bottom-0 flex items-center justify-center w-24 bg-gradient-to-l from-ghibli-cream to-transparent z-10 pointer-events-none">
-            <CarouselNext className="relative h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight pointer-events-auto" />
-          </div>
+          <CarouselPrevious className="absolute top-1/2 left-0 -translate-y-1/2 h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight" />
+          <CarouselNext className="absolute top-1/2 right-0 -translate-y-1/2 h-12 w-12 rounded-full bg-white/90 hover:bg-white transition-colors border-ghibli-brown hover:border-ghibli-brownLight" />
         </Carousel>
       </div>
       
