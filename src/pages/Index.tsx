@@ -7,10 +7,7 @@ import { Button } from '@/components/ui/button';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
-      <div className="flex justify-between items-center py-4 bg-white/30 backdrop-blur-sm">
-        <h1 className="text-3xl font-caveat text-ghibli-brown px-4">
-          2222 spirits on chain — ghibli
-        </h1>
+      <div className="flex justify-between items-center py-4">
         <div className="px-4">
           <Button 
             className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
@@ -24,6 +21,11 @@ const Index = () => {
           </Button>
         </div>
       </div>
+      
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-caveat text-ghibli-brown text-center mb-8 px-4">
+        2222 spirits on chain — ghibli
+      </h1>
+      
       <main className="flex-grow">
         <CarouselGallery />
       </main>
