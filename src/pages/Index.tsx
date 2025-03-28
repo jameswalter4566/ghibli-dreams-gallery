@@ -10,25 +10,22 @@ const Index = () => {
       <div className="flex justify-between items-center py-4 px-4">
         <div className="flex-grow"></div>
         
-        <div className="flex items-center space-x-4">
-          <div className="flex flex-col items-center">
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
-              aria-label="Twitter/X"
-            >
-              <div className="flex items-center justify-center w-32 h-12 bg-black">
-                <X size={24} className="text-white" />
-              </div>
-            </a>
-            <p className="text-white font-medium mt-2 text-center">Twitter</p>
-          </div>
+        <div className="flex items-center space-x-6">
+          <a 
+            href="https://twitter.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
+            aria-label="Twitter/X"
+          >
+            <div className="flex items-center justify-center w-full h-full bg-black">
+              <X size={32} className="text-white" />
+            </div>
+          </a>
           
           <div className="flex flex-col items-center">
             <Button 
-              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-32 h-12"
+              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
               aria-label="Mint Now"
             >
               <div className="flex items-center justify-center w-full h-full">
@@ -39,7 +36,7 @@ const Index = () => {
                 />
               </div>
             </Button>
-            <p className="text-white font-medium mt-2 text-center">Mint now</p>
+            <p className="text-white font-caveat font-bold mt-2 text-center text-xl">Mint now</p>
           </div>
         </div>
       </div>
