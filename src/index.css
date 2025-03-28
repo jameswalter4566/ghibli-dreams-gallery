@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,81 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-ghibli-cream text-foreground font-nunito;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-caveat;
+  }
+}
+
+@layer components {
+  .ghibli-gradient {
+    @apply bg-gradient-to-b from-ghibli-sky to-ghibli-purple;
+  }
+  
+  .hand-drawn-border {
+    position: relative;
+    border-radius: 0.75rem;
+  }
+  
+  .hand-drawn-border::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid #A08679;
+    border-radius: 0.85rem;
+    z-index: -1;
+    transform: translate(3px, 3px);
+  }
+  
+  .hand-drawn-border::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid #D3C0F9;
+    border-radius: 0.85rem;
+    z-index: -1;
+  }
+  
+  .cloud-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .grass-container {
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .grass {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="%23A8D8EA" fill-opacity="0.3" d="M0,32L60,42.7C120,53,240,75,360,74.7C480,75,600,53,720,48C840,43,960,53,1080,58.7C1200,64,1320,64,1380,64L1440,64L1440,100L1380,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path></svg>');
+    background-size: cover;
+  }
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
 }

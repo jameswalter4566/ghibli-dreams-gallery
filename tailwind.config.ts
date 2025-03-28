@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Ghibli theme colors
+				ghibli: {
+					sky: "#A8D8EA",
+					skyLight: "#B1E5F2",
+					purple: "#D3C0F9",
+					purpleLight: "#E6E6FA",
+					cream: "#F8F8FF",
+					brown: "#A08679",
+					brownLight: "#D8BFD8",
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +95,36 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'drift-left': {
+					'0%': { transform: 'translateX(5%)' },
+					'100%': { transform: 'translateX(-105%)' }
+				},
+				'drift-right': {
+					'0%': { transform: 'translateX(-105%)' },
+					'100%': { transform: 'translateX(5%)' }
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'pulse-gentle': {
+					'0%, 100%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(1.05)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'drift-left': 'drift-left 60s linear infinite',
+				'drift-right': 'drift-right 80s linear infinite',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'pulse-gentle': 'pulse-gentle 4s ease-in-out infinite'
 			}
 		}
 	},
