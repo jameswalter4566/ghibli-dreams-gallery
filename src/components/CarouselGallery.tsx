@@ -69,7 +69,7 @@ const CarouselGallery = () => {
                 className="pl-2 md:pl-4 flex justify-center basis-full md:basis-4/5 lg:basis-3/4"
               >
                 <div className="w-full h-full flex flex-col items-center">
-                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[9/16] w-full mb-6 hand-drawn-border group">
+                  <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[10/16] w-full mb-6 hand-drawn-border group">
                     <img 
                       src={nft.image} 
                       alt={nft.title}
