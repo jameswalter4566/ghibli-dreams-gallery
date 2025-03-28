@@ -28,14 +28,16 @@ const Index = () => {
           
           <div className="flex flex-col items-center">
             <Button 
-              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-32 h-12"
               aria-label="Mint Now"
             >
-              <img 
-                src="mintnow.jpg" 
-                alt="Mint Now" 
-                className="w-32 h-auto object-contain"
-              />
+              <div className="flex items-center justify-center w-full h-full">
+                <img 
+                  src="mintnow.jpg" 
+                  alt="Mint Now" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
             </Button>
             <p className="text-white font-medium mt-2 text-center">Mint now</p>
           </div>
