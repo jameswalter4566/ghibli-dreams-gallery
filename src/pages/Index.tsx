@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
-      <div className="w-full h-screen relative bg-gradient-to-b from-[#FEF7CD] to-[#FFA500]">
+      <div className="w-full h-screen relative bg-gradient-to-b from-[#FFC300] to-[#FFD700]">
         <img 
           src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
           alt="Earth view"
