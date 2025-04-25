@@ -1,3 +1,4 @@
+
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -44,7 +45,7 @@ const Index = () => {
               
               <div className="flex flex-col items-center">
                 <a 
-                  href="https://launchmynft.io/collections/GWB6T5XHBajyE5i4P547JFYJvRQ9CwoTddZr6FprDWhd/TzJoooiRqW7EXGz9mNS9" 
+                  href="https://launchmynft.io/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-24 h-12 md:w-40 md:h-16"
