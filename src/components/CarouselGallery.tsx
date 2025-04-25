@@ -54,20 +54,13 @@ const carouselNFTs: NFTItem[] = [
   },
   {
     id: 7,
-    title: "Spirit Six",
-    image: "/photo_2025-04-25_14-55-26.jpg",
-    description: "",
-    price: ""
-  },
-  {
-    id: 8,
     title: "Spirit Seven",
     image: "/photo_2025-04-25_14-55-31.jpg",
     description: "",
     price: ""
   },
   {
-    id: 9,
+    id: 8,
     title: "Spirit Eight",
     image: "/photo_2025-04-25_14-55-36.jpg",
     description: "",
