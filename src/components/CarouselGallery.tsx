@@ -65,13 +65,6 @@ const carouselNFTs: NFTItem[] = [
     image: "/photo_2025-04-25_14-38-59.jpg",
     description: "",
     price: ""
-  },
-  {
-    id: 9,
-    title: "Desert Nomad",
-    image: "/image15.png",
-    description: "",
-    price: ""
   }
 ];
 
