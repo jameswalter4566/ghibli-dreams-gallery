@@ -25,14 +25,8 @@ const Index = () => {
         
         <div className="relative z-10 w-full h-full flex flex-col">
           <div className="text-center pt-8 flex justify-center items-center space-x-6">
-            <img 
-              src="/lovable-uploads/2c324568-c284-42f2-9e0f-1508a47d83a3.png" 
-              alt="Bonk Logo" 
-              className="w-32 h-32 object-contain"
-            />
-            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.1em]">B O N K</h1>
+            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.1em]">BONKZ</h1>
           </div>
-          <p className="text-3xl font-impact text-white tracking-wider text-center -mt-4">MORE THAN ORDINARY [DOG]</p>
 
           <div className="flex justify-end items-center py-4 px-6">
             <div className="flex items-center space-x-6">
