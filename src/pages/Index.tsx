@@ -7,7 +7,6 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
       <div className="w-full h-screen relative bg-gradient-to-b from-[#FFC300] to-[#FFD700]">
-        {/* Add Avatar to top left */}
         <div className="absolute top-4 left-4 z-20">
           <Avatar className="w-24 h-24 border-4 border-white shadow-lg">
             <AvatarImage 
@@ -31,7 +30,7 @@ const Index = () => {
               alt="Bonk Logo" 
               className="w-32 h-32 object-contain"
             />
-            <h1 className="text-8xl font-impact text-red-600 mb-4">BONK</h1>
+            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.5em]">B O N K</h1>
           </div>
           <p className="text-3xl font-impact text-white tracking-wider text-center">MORE THAN ORDINARY [DOG]</p>
 
