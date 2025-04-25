@@ -12,57 +12,64 @@ import CarouselModal from './CarouselModal';
 const carouselNFTs: NFTItem[] = [
   {
     id: 1,
-    title: "Mint Now",
-    image: "/photo_2025-03-28_16-33-40.jpg",
+    title: "Forest Spirit",
+    image: "/image145.png",
     description: "",
     price: ""
   },
   {
     id: 2,
-    title: "Spirit One",
-    image: "/photo_2025-04-25_14-38-42.jpg",
+    title: "Sky Castle",
+    image: "/image16.png",
     description: "",
     price: ""
   },
   {
     id: 3,
-    title: "Spirit Two",
-    image: "/photo_2025-04-25_14-38-59.jpg",
+    title: "River Dragon",
+    image: "/image1455.png",
     description: "",
     price: ""
   },
   {
     id: 4,
-    title: "Spirit Three",
-    image: "/photo_2025-04-25_14-39-44.jpg",
+    title: "Twilight Deer",
+    image: "/image1433.png",
     description: "",
     price: ""
   },
   {
     id: 5,
-    title: "Spirit Four",
-    image: "/photo_2025-04-25_14-40-06.jpg",
+    title: "Mountain Keeper",
+    image: "/image1.png",
     description: "",
     price: ""
   },
   {
     id: 6,
-    title: "Spirit Five",
-    image: "/photo_2025-04-25_14-55-14.jpg",
+    title: "Ocean Voyager",
+    image: "/image12.png",
     description: "",
     price: ""
   },
   {
     id: 7,
-    title: "Spirit Seven",
-    image: "/photo_2025-04-25_14-55-31.jpg",
+    title: "Crystal Guardian",
+    image: "/image13.png",
     description: "",
     price: ""
   },
   {
     id: 8,
-    title: "Spirit Eight",
-    image: "/photo_2025-04-25_14-55-36.jpg",
+    title: "Flower Sprite",
+    image: "/image14.png",
+    description: "",
+    price: ""
+  },
+  {
+    id: 9,
+    title: "Desert Nomad",
+    image: "/image15.png",
     description: "",
     price: ""
   }
