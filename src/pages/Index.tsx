@@ -49,7 +49,7 @@ const Index = () => {
         </div>
       </div>
       
-      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#F97316] to-[#FEC6A1] p-8">
+      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF4500] to-[#FF6347] p-8">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-white/10 backdrop-blur-sm border-4 border-white/80 rounded-lg p-6">
             <h2 className="text-4xl font-impact uppercase text-white mb-4">About Ghiblio</h2>
