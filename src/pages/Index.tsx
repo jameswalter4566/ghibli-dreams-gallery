@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -22,7 +21,7 @@ const Index = () => {
           <div className="flex justify-end items-center py-4 px-6">
             <div className="flex items-center space-x-6">
               <a 
-                href="https://x.com/ghiblio_nft" 
+                href="https://x.com/thebonkz_xyz" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-0 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow w-40 h-16"
@@ -68,7 +67,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-[#FFB6C1] to-[#FF69B4] backdrop-blur-sm rounded-2xl p-10 border-[12px] border-white">
+            <div className="bg-gradient-to-br from-[#FFA500] to-[#FF8C00] backdrop-blur-sm rounded-2xl p-10 border-[12px] border-white">
               <h3 className="text-4xl font-impact uppercase text-white mb-6">Use Bonk</h3>
               <div className="space-y-6">
                 <p className="text-white/90 font-impact uppercase text-xl mb-6">139 Integrations & Counting</p>
