@@ -31,7 +31,7 @@ const Index = () => {
               alt="Bonk Logo" 
               className="w-32 h-32 object-contain"
             />
-            <h1 className="text-8xl font-impact text-red-600 mb-4">BONK</h1>
+            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.5em]">B O N K</h1>
           </div>
           <p className="text-3xl font-impact text-white tracking-wider text-center">MORE THAN ORDINARY [DOG]</p>
 
