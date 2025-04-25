@@ -52,46 +52,46 @@ const Index = () => {
       
       <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF4500] to-[#FFD700] p-8 mb-12">
         <div className="max-w-4xl mx-auto space-y-8">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border-4 border-white/80">
-            <h2 className="text-4xl font-impact uppercase text-white mb-4">About Ghiblio</h2>
-            <p className="text-white/90 font-impact uppercase leading-relaxed">
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
+            <h2 className="text-5xl font-impact uppercase text-white mb-6">About Ghiblio</h2>
+            <p className="text-white/90 font-impact uppercase leading-relaxed text-xl">
               Ghiblio is a unique NFT collection bringing the magic of animation to the blockchain. Our mission is to create a community-driven ecosystem that celebrates artistic excellence and innovation.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border-4 border-white/80">
-              <h3 className="text-2xl font-impact uppercase text-white mb-4">Collection</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center border-b border-white/10 pb-2">
-                  <span className="text-white/90 font-impact uppercase">Total Supply</span>
-                  <span className="text-white font-impact">2222</span>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
+              <h3 className="text-3xl font-impact uppercase text-white mb-6">Collection</h3>
+              <div className="space-y-6">
+                <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                  <span className="text-white/90 font-impact uppercase text-lg">Total Supply</span>
+                  <span className="text-white font-impact text-xl">2222</span>
                 </div>
-                <div className="flex justify-between items-center border-b border-white/10 pb-2">
-                  <span className="text-white/90 font-impact uppercase">Unique Traits</span>
-                  <span className="text-white font-impact">150+</span>
+                <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                  <span className="text-white/90 font-impact uppercase text-lg">Unique Traits</span>
+                  <span className="text-white font-impact text-xl">150+</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-white/90 font-impact uppercase">Blockchain</span>
-                  <span className="text-white font-impact">Solana</span>
+                  <span className="text-white/90 font-impact uppercase text-lg">Blockchain</span>
+                  <span className="text-white font-impact text-xl">Solana</span>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border-4 border-white/80">
-              <h3 className="text-2xl font-impact uppercase text-white mb-4">Community</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center border-b border-white/10 pb-2">
-                  <span className="text-white/90 font-impact uppercase">Total Members</span>
-                  <span className="text-white font-impact">10K+</span>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
+              <h3 className="text-3xl font-impact uppercase text-white mb-6">Community</h3>
+              <div className="space-y-6">
+                <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                  <span className="text-white/90 font-impact uppercase text-lg">Total Members</span>
+                  <span className="text-white font-impact text-xl">10K+</span>
                 </div>
-                <div className="flex justify-between items-center border-b border-white/10 pb-2">
-                  <span className="text-white/90 font-impact uppercase">Discord Users</span>
-                  <span className="text-white font-impact">5K+</span>
+                <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                  <span className="text-white/90 font-impact uppercase text-lg">Discord Users</span>
+                  <span className="text-white font-impact text-xl">5K+</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-white/90 font-impact uppercase">Twitter Followers</span>
-                  <span className="text-white font-impact">15K+</span>
+                  <span className="text-white/90 font-impact uppercase text-lg">Twitter Followers</span>
+                  <span className="text-white font-impact text-xl">15K+</span>
                 </div>
               </div>
             </div>
