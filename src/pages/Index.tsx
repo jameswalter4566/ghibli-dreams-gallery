@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -38,14 +37,18 @@ const Index = () => {
         </div>
       </div>
       
-      <div className="w-4/5 mx-auto h-[60vh] rounded-3xl overflow-hidden relative bg-gradient-to-b from-[#FF4500] to-[#FFA500]">
+      <div className="w-4/5 mx-auto h-[90vh] rounded-3xl overflow-hidden relative bg-gradient-to-b from-[#FF4500] to-[#FFA500]">
         <img 
           src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
           alt="Earth view"
           className="w-full h-full object-cover absolute inset-0 z-0"
         />
         
-        <div className="relative z-10 w-full h-full">
+        <div className="relative z-10 w-full h-full flex flex-col">
+          <div className="text-center pt-12 mb-8">
+            <h1 className="text-8xl font-impact text-red-600 mb-4">BONK</h1>
+            <p className="text-3xl font-impact text-white tracking-wider">MORE THAN ORDINARY [DOG]</p>
+          </div>
           <CarouselGallery />
         </div>
       </div>
