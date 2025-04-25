@@ -53,11 +53,12 @@ const Index = () => {
       <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF4500] to-[#FFD700] p-8 mb-12">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
-            <h2 className="text-5xl font-impact uppercase text-white mb-6">About Bonk</h2>
+            <h2 className="text-5xl font-impact uppercase text-white mb-6">ABOUT BONKZ</h2>
             <p className="text-white/90 font-impact uppercase leading-relaxed text-xl">
-              Bonk is the social layer and community meme coin of Solana with deep integrations as a utility token across a wide base of
-              applications and protocols within the web3 ecosystem. We aim to achieve this through expanding our growing list of
-              integrations across:
+              $BONKZ is a collection of 2500 BONKZ inspired by the BONK memecoin.
+            </p>
+            <p className="text-white/90 font-impact uppercase leading-relaxed text-xl mt-4">
+              Powered by the $BONKZ token, holders will be able to mint the genesis collection for free as well as gaining further access to future mints.
             </p>
           </div>
 
