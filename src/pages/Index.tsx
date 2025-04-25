@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -8,12 +7,15 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
       <div className="w-full h-screen relative bg-gradient-to-b from-[#FFC300] to-[#FFD700]">
+        {/* Add Avatar to top left */}
         <div className="absolute top-4 left-4 z-20">
-          <AvatarImage 
-            src="/lovable-uploads/b498f48a-a2eb-46b5-a9ca-c21f1f96bcf2.png" 
-            alt="Bonk Mascot" 
-            className="w-12 h-12 object-cover rounded-full"
-          />
+          <Avatar className="w-24 h-24 border-4 border-white shadow-lg">
+            <AvatarImage 
+              src="/lovable-uploads/b498f48a-a2eb-46b5-a9ca-c21f1f96bcf2.png" 
+              alt="Bonk Mascot" 
+              className="object-cover"
+            />
+          </Avatar>
         </div>
 
         <img 
@@ -29,7 +31,7 @@ const Index = () => {
               alt="Bonk Logo" 
               className="w-32 h-32 object-contain"
             />
-            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.5em]">B O N K</h1>
+            <h1 className="text-8xl font-impact text-red-600 mb-4">BONK</h1>
           </div>
           <p className="text-3xl font-impact text-white tracking-wider text-center">MORE THAN ORDINARY [DOG]</p>
 
@@ -146,4 +148,3 @@ const Index = () => {
 };
 
 export default Index;
-
