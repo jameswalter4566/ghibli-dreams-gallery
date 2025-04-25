@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -38,7 +37,7 @@ const Index = () => {
         </div>
       </div>
       
-      <div className="w-4/5 mx-auto h-[60vh] rounded-3xl overflow-hidden mb-8 relative">
+      <div className="w-4/5 mx-auto h-[60vh] rounded-3xl overflow-hidden relative">
         <img 
           src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
           alt="Earth view"
@@ -50,28 +49,24 @@ const Index = () => {
         </div>
       </div>
       
-      <h1 className="text-5xl md:text-6xl lg:text-7xl font-caveat text-white text-center mb-8 px-4">
-        2222 spirits on chain — ghiblio
-      </h1>
-
-      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden mb-8 bg-gradient-to-br from-[#F97316] to-[#FEC6A1] p-8">
+      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#F97316] to-[#FEC6A1] p-8">
         <div className="max-w-4xl mx-auto space-y-8">
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6">
-            <h2 className="text-4xl font-caveat text-white mb-4">About Ghiblio</h2>
-            <p className="text-white/90">
+          <div className="bg-white/10 backdrop-blur-sm border-4 border-white/80 rounded-lg p-6">
+            <h2 className="text-4xl font-impact uppercase text-white mb-4">About Ghiblio</h2>
+            <p className="text-white/90 font-impact uppercase">
               Ghiblio is a unique NFT collection bringing the magic of animation to the blockchain. Our mission is to create a community-driven ecosystem that celebrates artistic excellence and innovation.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6">
-              <h3 className="text-2xl font-caveat text-white mb-2">Collection</h3>
-              <p className="text-white/90">2222 unique spirits, each with its own story and characteristics, living on the blockchain.</p>
+            <div className="bg-white/10 backdrop-blur-sm border-4 border-white/80 rounded-lg p-6">
+              <h3 className="text-2xl font-impact uppercase text-white mb-2">Collection</h3>
+              <p className="text-white/90 font-impact uppercase">2222 unique spirits, each with its own story and characteristics, living on the blockchain.</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6">
-              <h3 className="text-2xl font-caveat text-white mb-2">Community</h3>
-              <p className="text-white/90">Join our growing community of art enthusiasts and collectors, united by a passion for animation.</p>
+            <div className="bg-white/10 backdrop-blur-sm border-4 border-white/80 rounded-lg p-6">
+              <h3 className="text-2xl font-impact uppercase text-white mb-2">Community</h3>
+              <p className="text-white/90 font-impact uppercase">Join our growing community of art enthusiasts and collectors, united by a passion for animation.</p>
             </div>
           </div>
         </div>
@@ -81,4 +76,3 @@ const Index = () => {
 };
 
 export default Index;
-

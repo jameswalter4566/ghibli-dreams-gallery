@@ -125,6 +125,9 @@ export default {
 				'drift-right': 'drift-right 80s linear infinite',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'pulse-gentle': 'pulse-gentle 4s ease-in-out infinite'
+			},
+			fontFamily: {
+				impact: ['Impact', 'sans-serif'],
 			}
 		}
 	},
