@@ -1,11 +1,24 @@
+
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
+import { Avatar, AvatarImage } from '@/components/ui/avatar';
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
       <div className="w-full h-screen relative bg-gradient-to-b from-[#FFC300] to-[#FFD700]">
+        {/* Add Avatar to top left */}
+        <div className="absolute top-4 left-4 z-20">
+          <Avatar className="w-24 h-24 border-4 border-white shadow-lg">
+            <AvatarImage 
+              src="/lovable-uploads/b498f48a-a2eb-46b5-a9ca-c21f1f96bcf2.png" 
+              alt="Bonk Mascot" 
+              className="object-cover"
+            />
+          </Avatar>
+        </div>
+
         <img 
           src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
           alt="Earth view"
