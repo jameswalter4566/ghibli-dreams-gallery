@@ -1,11 +1,10 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-ghibli-background bg-cover bg-center">
+    <div className="min-h-screen flex flex-col bg-ghibli-background">
       <div className="flex justify-end items-center py-4 px-6">
         <div className="flex items-center space-x-6">
           <a 

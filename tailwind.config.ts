@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,6 +61,7 @@ export default {
 					cream: "#F8F8FF",
 					brown: "#A08679",
 					brownLight: "#D8BFD8",
+					background: '#0F172A', // Dark navy blue from the image
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
