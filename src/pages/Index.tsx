@@ -1,3 +1,4 @@
+
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -35,6 +36,14 @@ const Index = () => {
             </a>
           </div>
         </div>
+      </div>
+      
+      <div className="w-4/5 mx-auto h-[60vh] rounded-3xl overflow-hidden mb-8">
+        <img 
+          src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
+          alt="Earth view"
+          className="w-full h-full object-cover"
+        />
       </div>
       
       <h1 className="text-5xl md:text-6xl lg:text-7xl font-caveat text-white text-center mb-8 px-4">
