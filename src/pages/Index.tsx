@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -75,65 +74,6 @@ const Index = () => {
             <p className="text-white/90 font-impact uppercase leading-relaxed text-lg md:text-xl mt-4">
               Powered by the $BONKZ token, holders will be able to mint the genesis collection for free as well as gaining further access to future mints.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-            <div className="bg-gradient-to-br from-[#FFA500] to-[#FF8C00] backdrop-blur-sm rounded-2xl p-6 md:p-10 border-[8px] md:border-[12px] border-white">
-              <h3 className="text-2xl md:text-4xl font-impact uppercase text-white mb-4 md:mb-6">Use Bonk</h3>
-              <div className="space-y-4 md:space-y-6">
-                <p className="text-white/90 font-impact uppercase text-lg md:text-xl mb-4 md:mb-6">139 Integrations & Counting</p>
-                <div className="space-y-3 md:space-y-4">
-                  <div className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4 text-base md:text-xl">
-                    <span className="text-white/90 font-impact uppercase">39</span>
-                    <span className="text-white font-impact">Exchange</span>
-                    <span className="text-white/90 font-impact uppercase">28</span>
-                    <span className="text-white font-impact">DEFI</span>
-                  </div>
-                  <div className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4 text-base md:text-xl">
-                    <span className="text-white/90 font-impact uppercase">23</span>
-                    <span className="text-white font-impact">Gaming</span>
-                    <span className="text-white font-impact text-xl">11</span>
-                    <span className="text-white font-impact text-xl">NFT</span>
-                  </div>
-                  <div className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4 text-base md:text-xl">
-                    <span className="text-white/90 font-impact uppercase">9</span>
-                    <span className="text-white font-impact">Developer</span>
-                    <span className="text-white font-impact text-xl">9</span>
-                    <span className="text-white font-impact text-xl">Featured</span>
-                  </div>
-                  <div className="flex justify-between items-center border-b border-white/10 pb-3 md:pb-4 text-base md:text-xl">
-                    <span className="text-white/90 font-impact uppercase">8</span>
-                    <span className="text-white font-impact">Wallet</span>
-                    <span className="text-white font-impact text-xl">6</span>
-                    <span className="text-white font-impact text-xl">Social</span>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="text-white/90 font-impact uppercase text-xl">6</span>
-                    <span className="text-white font-impact text-xl ml-4">Transfer Tools</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#FFA500] to-[#FF8C00] backdrop-blur-sm rounded-2xl p-6 md:p-10 border-[8px] md:border-[12px] border-white">
-              <h3 className="text-2xl md:text-4xl font-impact uppercase text-white mb-4 md:mb-6">Get Bonk</h3>
-              <p className="text-white/90 font-impact uppercase text-lg md:text-xl mb-4 md:mb-6">40+ Dexs & Cexes, Buy Bonk Today</p>
-              <div className="grid grid-cols-2 gap-3 md:gap-4">
-                <div className="text-white font-impact text-base md:text-xl">Coinbase</div>
-                <div className="text-white font-impact text-base md:text-xl">Binance</div>
-                <div className="text-white font-impact text-base md:text-xl">Crypto.com</div>
-                <div className="text-white font-impact text-base md:text-xl">Kraken Pro</div>
-                <div className="text-white font-impact text-base md:text-xl">Bitstamp</div>
-                <div className="text-white font-impact text-base md:text-xl">Robinhood</div>
-                <div className="text-white font-impact text-base md:text-xl">OKX</div>
-                <div className="text-white font-impact text-base md:text-xl">Bybit</div>
-                <div className="text-white font-impact text-base md:text-xl">Jupiter Exchange</div>
-                <div className="text-white font-impact text-base md:text-xl">Bitfinex</div>
-                <div className="text-white font-impact text-base md:text-xl">Revolut</div>
-                <div className="text-white font-impact text-base md:text-xl">Backpack</div>
-                <div className="text-white font-impact text-base md:text-xl">OKX DEX</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
