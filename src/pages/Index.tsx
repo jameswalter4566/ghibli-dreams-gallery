@@ -6,7 +6,7 @@ import { Avatar, AvatarImage } from '@/components/ui/avatar';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
-      <div className="w-full h-screen relative bg-gradient-to-b from-[#FFC300] to-[#FFD700]">
+      <div className="w-full h-screen relative bg-gradient-to-b from-[#FFD700] to-[#FFC300]">
         <div className="absolute top-4 left-4 z-20">
           <Avatar className="w-24 h-24 border-4 border-white shadow-lg">
             <AvatarImage 
@@ -30,9 +30,9 @@ const Index = () => {
               alt="Bonk Logo" 
               className="w-32 h-32 object-contain"
             />
-            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.2em]">B O N K</h1>
+            <h1 className="text-[10rem] font-impact text-red-600 mb-4 tracking-[0.1em]">B O N K</h1>
           </div>
-          <p className="text-3xl font-impact text-white tracking-wider text-center">MORE THAN ORDINARY [DOG]</p>
+          <p className="text-3xl font-impact text-white tracking-wider text-center -mt-4">MORE THAN ORDINARY [DOG]</p>
 
           <div className="flex justify-end items-center py-4 px-6">
             <div className="flex items-center space-x-6">
