@@ -52,47 +52,70 @@ const Index = () => {
       
       <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF4500] to-[#FFD700] p-8 mb-12">
         <div className="max-w-4xl mx-auto space-y-8">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
-            <h2 className="text-5xl font-impact uppercase text-white mb-6">About Ghiblio</h2>
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+            <h2 className="text-5xl font-impact uppercase text-white mb-6">About Bonk</h2>
             <p className="text-white/90 font-impact uppercase leading-relaxed text-xl">
-              Ghiblio is a unique NFT collection bringing the magic of animation to the blockchain. Our mission is to create a community-driven ecosystem that celebrates artistic excellence and innovation.
+              Bonk is the social layer and community meme coin of Solana with deep integrations as a utility token across a wide base of
+              applications and protocols within the web3 ecosystem. We aim to achieve this through expanding our growing list of
+              integrations across:
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
-              <h3 className="text-3xl font-impact uppercase text-white mb-6">Collection</h3>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+              <h3 className="text-4xl font-impact uppercase text-white mb-6">Use Bonk</h3>
               <div className="space-y-6">
-                <div className="flex justify-between items-center border-b border-white/10 pb-4">
-                  <span className="text-white/90 font-impact uppercase text-lg">Total Supply</span>
-                  <span className="text-white font-impact text-xl">2222</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-white/10 pb-4">
-                  <span className="text-white/90 font-impact uppercase text-lg">Unique Traits</span>
-                  <span className="text-white font-impact text-xl">150+</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-white/90 font-impact uppercase text-lg">Blockchain</span>
-                  <span className="text-white font-impact text-xl">Solana</span>
+                <p className="text-white/90 font-impact uppercase text-xl mb-6">139 Integrations & Counting</p>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                    <span className="text-white/90 font-impact uppercase text-xl">39</span>
+                    <span className="text-white font-impact text-xl">Exchange</span>
+                    <span className="text-white font-impact text-xl">28</span>
+                    <span className="text-white font-impact text-xl">DEFI</span>
+                  </div>
+                  <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                    <span className="text-white/90 font-impact uppercase text-xl">23</span>
+                    <span className="text-white font-impact text-xl">Gaming</span>
+                    <span className="text-white font-impact text-xl">11</span>
+                    <span className="text-white font-impact text-xl">NFT</span>
+                  </div>
+                  <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                    <span className="text-white/90 font-impact uppercase text-xl">9</span>
+                    <span className="text-white font-impact text-xl">Developer</span>
+                    <span className="text-white font-impact text-xl">9</span>
+                    <span className="text-white font-impact text-xl">Featured</span>
+                  </div>
+                  <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                    <span className="text-white/90 font-impact uppercase text-xl">8</span>
+                    <span className="text-white font-impact text-xl">Wallet</span>
+                    <span className="text-white font-impact text-xl">6</span>
+                    <span className="text-white font-impact text-xl">Social</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="text-white/90 font-impact uppercase text-xl">6</span>
+                    <span className="text-white font-impact text-xl ml-4">Transfer Tools</span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-8 border-white/80">
-              <h3 className="text-3xl font-impact uppercase text-white mb-6">Community</h3>
-              <div className="space-y-6">
-                <div className="flex justify-between items-center border-b border-white/10 pb-4">
-                  <span className="text-white/90 font-impact uppercase text-lg">Total Members</span>
-                  <span className="text-white font-impact text-xl">10K+</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-white/10 pb-4">
-                  <span className="text-white/90 font-impact uppercase text-lg">Discord Users</span>
-                  <span className="text-white font-impact text-xl">5K+</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-white/90 font-impact uppercase text-lg">Twitter Followers</span>
-                  <span className="text-white font-impact text-xl">15K+</span>
-                </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+              <h3 className="text-4xl font-impact uppercase text-white mb-6">Get Bonk</h3>
+              <p className="text-white/90 font-impact uppercase text-xl mb-6">40+ Dexs & Cexes, Buy Bonk Today</p>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-white font-impact text-xl">Coinbase</div>
+                <div className="text-white font-impact text-xl">Binance</div>
+                <div className="text-white font-impact text-xl">Crypto.com</div>
+                <div className="text-white font-impact text-xl">Kraken Pro</div>
+                <div className="text-white font-impact text-xl">Bitstamp</div>
+                <div className="text-white font-impact text-xl">Robinhood</div>
+                <div className="text-white font-impact text-xl">OKX</div>
+                <div className="text-white font-impact text-xl">Bybit</div>
+                <div className="text-white font-impact text-xl">Jupiter Exchange</div>
+                <div className="text-white font-impact text-xl">Bitfinex</div>
+                <div className="text-white font-impact text-xl">Revolut</div>
+                <div className="text-white font-impact text-xl">Backpack</div>
+                <div className="text-white font-impact text-xl">OKX DEX</div>
               </div>
             </div>
           </div>
