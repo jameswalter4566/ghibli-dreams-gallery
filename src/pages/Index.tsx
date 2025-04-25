@@ -53,9 +53,9 @@ const Index = () => {
         </div>
       </div>
       
-      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF4500] to-[#FFD700] p-8 mb-12">
+      <div className="w-4/5 mx-auto min-h-[50vh] rounded-3xl overflow-hidden bg-[#F97316] p-8 mb-12">
         <div className="max-w-4xl mx-auto space-y-8">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+          <div className="bg-gradient-to-br from-[#FFA07A] to-[#FF7F50] backdrop-blur-sm rounded-2xl p-10 border-[12px] border-white">
             <h2 className="text-5xl font-impact uppercase text-white mb-6">ABOUT BONKZ</h2>
             <p className="text-white/90 font-impact uppercase leading-relaxed text-xl">
               $BONKZ is a collection of 2500 BONKZ inspired by the BONK memecoin.
@@ -66,7 +66,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+            <div className="bg-gradient-to-br from-[#FFB6C1] to-[#FF69B4] backdrop-blur-sm rounded-2xl p-10 border-[12px] border-white">
               <h3 className="text-4xl font-impact uppercase text-white mb-6">Use Bonk</h3>
               <div className="space-y-6">
                 <p className="text-white/90 font-impact uppercase text-xl mb-6">139 Integrations & Counting</p>
@@ -103,7 +103,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border-12 border-white/80">
+            <div className="bg-gradient-to-br from-[#FFA500] to-[#FF8C00] backdrop-blur-sm rounded-2xl p-10 border-[12px] border-white">
               <h3 className="text-4xl font-impact uppercase text-white mb-6">Get Bonk</h3>
               <p className="text-white/90 font-impact uppercase text-xl mb-6">40+ Dexs & Cexes, Buy Bonk Today</p>
               <div className="grid grid-cols-2 gap-4">
