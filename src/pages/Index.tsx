@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -26,10 +25,15 @@ const Index = () => {
         />
         
         <div className="relative z-10 w-full h-full flex flex-col">
-          <div className="text-center pt-8">
+          <div className="text-center pt-8 flex justify-center items-center space-x-6">
+            <img 
+              src="/lovable-uploads/2c324568-c284-42f2-9e0f-1508a47d83a3.png" 
+              alt="Bonk Logo" 
+              className="w-32 h-32 object-contain"
+            />
             <h1 className="text-8xl font-impact text-red-600 mb-4">BONK</h1>
-            <p className="text-3xl font-impact text-white tracking-wider">MORE THAN ORDINARY [DOG]</p>
           </div>
+          <p className="text-3xl font-impact text-white tracking-wider text-center">MORE THAN ORDINARY [DOG]</p>
 
           <div className="flex justify-end items-center py-4 px-6">
             <div className="flex items-center space-x-6">
