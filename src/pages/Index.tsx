@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CarouselGallery from '@/components/CarouselGallery';
 import { X } from 'lucide-react';
@@ -6,7 +5,7 @@ import { X } from 'lucide-react';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-ghibli-background">
-      <div className="w-full h-screen relative bg-gradient-to-b from-[#FF4500] to-[#FFA500]">
+      <div className="w-full h-screen relative bg-gradient-to-b from-[#FEF7CD] to-[#FFA500]">
         <img 
           src="/lovable-uploads/78cc1954-cc68-4622-9adf-bf308ae2e37f.png"
           alt="Earth view"
